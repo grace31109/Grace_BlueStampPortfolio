@@ -46,22 +46,42 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eSRVPmxoq2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Description 
+For my first milestone, I built the basic version of the Atari Punk Synthesizer on the breadboard.
+"pls insert picture here grace"
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- What your plan is to complete your project
+### Tinkercad Schematic 
+"pls insert picture here grace"
 
-### Etc
+Before building the physical circuit, I recreated the entire design in Tinkercad. This allowed me to verify that the circuit worked before assembling it on the breadboard. To keep the schematic easy to read, I color-coded all of the wires. Red wires are connected to positive power, black wires are connected to ground, and blue wires represent all other signal connections.
 
-## Challenges 
+The goal of this milestone was to create a functioning synthesizer that could generate different electronic tones using analog circuits. Building the circuit on a breadboard also allowed me to easily test, troubleshoot, and modify the design before creating a permanent version.
 
-- Challenges you're facing and solving in your future milestones
+## Components 
+
+### 556 Timer 
+The Atari Punk Synthesizer is built around a 556 timer integrated circuit, which contains two 555 timers inside a single chip. These timers work together to generate square-wave signals that produce the sound. The first timer works as an oscillator that generates square waves at a specific frequency which is determined by the connected capacitors and resistors. The second timer is also set up as an oscillator and works by modulating the first timer, creating the electronic sounds that the Atari Punk Synth is known for.
+
+### Potentiometers
+The synthesizer uses three potentiometers:
+
+* Two 500kΩ potentiometers control different aspects of the oscillator frequencies, allowing the pitch and tone to be changed 
+* One 5kΩ potentiometer controls the output volume by adjusting the signal sent to the speaker.
+
+### Capacitors
+The capacitors are used to determine the timing of the oscillators, while the speaker converts the electrical square-wave signal into audible sound. Together, these components create a simple but versatile analog synthesizer capable of producing a wide range of electronic tones.
+
+## Challenges
+One of the biggest challenges I faced was learning how to use both Tinkercad and breadboard circuits, since I had very little experience with either before starting this project. So this challenge came with troubleshooting the circuit when it initially failed to produce any sound. 
+
+During troubleshooting, we used an oscilloscope which lets us see the electrical signals in the circuit. The oscilloscope displays how voltage changes over time. This helped us check whether the 556 timer was producing the expected square wave output. 
+
+We also used a function generator, which produces electrical signals such as square, sine, and triangle waves. It can be used to inject known signals into a circuit to test individual places and help find the source of the problem.
+
+Eventually, I discovered that the speaker wires were not making good contact with the breadboard. After fixing that connection, the synthesizer immediately started working. This experience taught me that even a small connection issue can prevent an entire circuit from functioning and the importance of carefully checking every component during troubleshooting.
 
 ## Next Steps
 
-I plan on tranferring this breadboard circut to a soldered perfboard. I also plan to add an on/off switch so I don't have to keep the battery connected all the time. This will help prevent battery drain. 
-
+For my next milestone, I plan to transfer the breadboard circuit onto a soldered perfboard to create a more permanent version of the synthesizer. I also want to start thinking and planning about how to expand the synthesizer by adding additional components that will provide more control over its sound.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -83,7 +103,6 @@ void loop() {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
