@@ -69,7 +69,7 @@ The synthesizer uses three potentiometers:
 * One 5kΩ potentiometer controls the output volume by adjusting the signal sent to the speaker.
 
 ### Capacitors
-The capacitors are used to determine the timing of the oscillators, while the speaker converts the electrical square-wave signal into audible sound. Together, these components create analog synthesizer capable of producing a wide range of electronic tones.
+The capacitors are used to determine the timing of the oscillators because the speaker converts the electrical square-wave signals into actual sound. Together, these components create an analog synthesizer that can produce a wode rnage of electronic tones.
 
 ## Challenges
 One of the biggest challenges I faced was learning how to use both Tinkercad and breadboard circuits, since I had very little experience with either before starting this project. So this challenge came with troubleshooting the circuit when it initially failed to produce any sound. 
