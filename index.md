@@ -1,7 +1,6 @@
 # Atari Punk Synthesizer 
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My project is an Atari Punk Synthesizer, an analog electronic instrument that generates a variety of retro-style sounds using a 556 timer chip. The user can adjust the pitch, tone, and volume with three potentiometers to create different sound effects.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
@@ -70,7 +69,7 @@ The synthesizer uses three potentiometers:
 * One 5kΩ potentiometer controls the output volume by adjusting the signal sent to the speaker.
 
 ### Capacitors
-The capacitors are used to determine the timing of the oscillators, while the speaker converts the electrical square-wave signal into audible sound. Together, these components create a simple but versatile analog synthesizer capable of producing a wide range of electronic tones.
+The capacitors are used to determine the timing of the oscillators, while the speaker converts the electrical square-wave signal into audible sound. Together, these components create analog synthesizer capable of producing a wide range of electronic tones.
 
 ## Challenges
 One of the biggest challenges I faced was learning how to use both Tinkercad and breadboard circuits, since I had very little experience with either before starting this project. So this challenge came with troubleshooting the circuit when it initially failed to produce any sound. 
@@ -85,24 +84,15 @@ Eventually, I discovered that the speaker wires were not making good contact wit
 
 For my next milestone, I plan to transfer the breadboard circuit onto a soldered perfboard to create a more permanent version of the synthesizer. I also want to start thinking and planning about how to expand the synthesizer by adding additional components that will provide more control over its sound.
 
+# Starter Project 
+
+<iframe width="860" height="484" src="https://www.youtube.com/embed/EVD8lXy4kp4" title="Grace G. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Description 
+:O
+
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
-```
 
 # Bill of Materials
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
