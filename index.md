@@ -46,10 +46,11 @@ For your second milestone, explain what you've worked on since your previous mil
 
 ## Description 
 For my first milestone, I built the basic version of the Atari Punk Synthesizer on the breadboard.
-m1_project.jpg
+![Milestone Image](m1_project.jpg) 
 
 ### Tinkercad Schematic 
-m1_tinkercad.png
+![Milestone Image](m1_tinkercad.png) 
+
 
 Before building the physical circuit, I recreated the entire design in Tinkercad. This allowed me to verify that the circuit worked before assembling it on the breadboard. To keep the schematic easy to read, I color-coded all of the wires. Red wires are connected to positive power, black wires are connected to ground, and blue wires represent all other signal connections.
 
