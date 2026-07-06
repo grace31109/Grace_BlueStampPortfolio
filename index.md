@@ -49,7 +49,7 @@ For my first milestone, I built the basic version of the Atari Punk Synthesizer 
 "pls insert picture here grace"
 
 ### Tinkercad Schematic 
-"pls insert picture here grace"
+m1_tinkercad.png
 
 Before building the physical circuit, I recreated the entire design in Tinkercad. This allowed me to verify that the circuit worked before assembling it on the breadboard. To keep the schematic easy to read, I color-coded all of the wires. Red wires are connected to positive power, black wires are connected to ground, and blue wires represent all other signal connections.
 
