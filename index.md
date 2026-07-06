@@ -46,6 +46,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 ## Description 
 For my first milestone, I built the basic version of the Atari Punk Synthesizer on the breadboard.
+
 ![Milestone Image](m1_project.jpg) 
 
 ### Tinkercad Schematic 
