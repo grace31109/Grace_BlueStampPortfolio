@@ -32,13 +32,50 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="844" height="475" src="https://www.youtube.com/embed/k7cU7gvNjDI" title="Grace G. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+## Description 
+For my second milestone, I expanded the original Atari Punk Synthesizer by adding several new modules that give me more control over the sound. Other than simply producing electronic tones, the synthesizer can now generate modulation effects, amplify its audio output, and offer much greater control over how the sound is changed.
+
+### Updated Circuit Diagram
+Unlike the first milestone, this stage involved integrating multiple independent circuits into one system. Because of the increased complexity, I switched from Tinkercad to Fritzing, which offers a wider selection of electronic components and makes it easier to represent my circuit accurately.
+
+# grace add
+
+## Overall Design
+The synthesizer now consists of three main subsystems: the original 556 timer circuit that generates the sound, the XR2206 low-frequency oscillator that modulates the sound, and the LM386 amplifier that boosts the output.
+
+# add picture
+
+## Components 
+### LM386 Audio Amplifier
+One of the largest additions was an LM386 audio amplifier, which strengthens the audio signal produced by the synthesizer before sending it to the speaker.
+
+The audio signal enters pin 3 through the 5 kΩ volume potentiometer. The LM386 amplifies this signal, which then exits through pin 5, passes through a coupling capacitor, and finally reaches the speaker. Several capacitors were also added around the amplifier to improve power stability and reduce unwanted noise. Because the amplifier is powered by its own battery, I also added an LED to indicate when it is receiving power.
+
+# picture 
+
+### XR2206 Low-Frequency Oscillator (LFO)
+Another major addition was an XR2206 function generator, which works as a Low-Frequency Oscillator (LFO).
+
+Unlike the 556 timer, which creates audible frequencies, the XR2206 generates frequencies below approximately 20 Hz. Since these frequencies are below the range of human hearing, they are not heard directly. Instead, the LFO changes the frequency of the 556 oscillators, producing modulation effects such as vibrato.
+
+I have a total of 3 potentiometers. The first potentiometer is connected to pin 7 which then controls the LFO speed, allowing the modulation to range from slower to much faster oscillations.
+
+The LFO signal leaves pin 2 of the XR2206 and is divided into two independent paths. Each path contains its own **100 kΩ potentiometer** followed by a **10 kΩ resistor** before connecting to one of the two control inputs on the 556 timer(pins 3 and 11). This allows me to independently adjust how much modulation each oscillator receives, giving me much more control over the synthesizer's sound. 
+
+# picture
+
+## Challenges
+
+The biggest challenge during this milestone was integrating all of the new components together. Although there were many tutorials explaining the audio amplifier, the function generator, and the 556 timer individually, I could not find instructions showing how to combine them into a single synthesizer. Because of this, I spent much of my time reading datasheets to understand the purpose of each pin instead of simply following tutorials. I experimented with different resistor values, wiring configurations, and modulation methods until the individual modules finally worked together.
+
+Testing also proved more difficult than I expected. Since everything was still assembled on breadboards, every work session began by checking that each jumper wire was fully inserted. Even one loose connection could prevent the entire synthesizer from working. To improve this, I replaced several jumper wires with flatter connections that fit more securely into the breadboard.
+
+Overall, this milestone taught me that building electronics is not only about assembling circuits—it is also about understanding how different systems communicate and learning how to interpret datasheets when no complete instructions exist.
+
+## Next Steps 
+For my final milestone, I plan to solder the complete circuit onto a perfboard/solderable breadboard to create a more permanent version of the synthesizer. I also plan to design a custom CAD enclosure that organizes the electronics into a portable case instead of an exposed breadboard. Finally, I plan to improve the overall layout of the synthesizer by organizing the wiring.
 
 # First Milestone
 
@@ -62,7 +99,7 @@ The goal of this milestone was to create a functioning synthesizer that could ge
 ### 556 Timer 
 The Atari Punk Synthesizer is built around a 556 timer integrated circuit, which contains two 555 timers inside a single chip. These timers work together to generate square-wave signals that produce the sound. The first timer works as an oscillator that generates square waves at a specific frequency which is determined by the connected capacitors and resistors. The second timer is also set up as an oscillator and works by modulating the first timer, creating the electronic sounds that the Atari Punk Synth is known for.
 
-* add picture
+556timer_image.png
 
 ### Potentiometers
 The synthesizer uses three potentiometers:
@@ -91,7 +128,14 @@ For my next milestone, I plan to transfer the breadboard circuit onto a soldered
 <iframe width="860" height="484" src="https://www.youtube.com/embed/EVD8lXy4kp4" title="Grace G. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Description 
-:O
+
+
+** image 
+
+## Challenges 
+
+## Next Steps 
+
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -107,6 +151,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 # Other Resources/Examples
 - [Build an Atari Punk Circuit on a Breadboard](https://www.instructables.com/Build-an-Atari-Punk-circuit-on-a-breadboard/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
+- [Let's Build (Analogue Synth)](https://www.instructables.com/Lets-Build-Analogue-Synth/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
