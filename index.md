@@ -68,7 +68,7 @@ For my second milestone, I expanded the original Atari Punk Synthesizer by addin
 ### Updated Circuit Diagram
 Unlike the first milestone, this stage involved integrating multiple independent circuits into one system. Because of the increased complexity, I switched from Tinkercad to Fritzing, which offers a wider selection of electronic components and makes it easier to represent my circuit accurately.
 
-# grace add
+fritizing.png
 
 ## Overall Design
 The synthesizer now consists of three main subsystems: the original 556 timer circuit that generates the sound, the XR2206 low-frequency oscillator that modulates the sound, and the LM386 amplifier that boosts the output.
