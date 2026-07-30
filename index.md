@@ -16,17 +16,45 @@ My project is an Atari Punk Synthesizer, an analog electronic instrument that ge
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eSRVPmxoq2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+## Description 
+For my final milestone, I transformed my breadboard prototype into a much more permanent and portable synthesizer. I transferred the entire circuit onto a solderable perfboard, which replaced the temporary jumper-wire connections with soldered electrical connections. I also designed and 3D modeled a custom enclosure using CAD to organize and protect the electronics.
 
+## Final Design
 
+### Perfboard Assembly
+The largest change was transferring every component from the breadboards onto solderable breadboards and a perfboard.
+
+Unlike a breadboard, where components can simply be plugged in, every electrical connection on a perfboard must be made manually using solder. This required carefully planning the layout before soldering to avoid crossing wires and to keep the circuit organized.
+
+Moving to a perfboard also reduced the number of loose jumper wires, making the synthesizer much easier to transport.
+
+# picture 
+
+### CAD
+
+After completing the electronics, I designed a custom enclosure using CAD software.
+
+The enclosure holds the perfboards securely while providing openings for the potentiometers, push buttons, switches, LEDs, and speaker. Creating the enclosure required measuring the dimensions of every component and arranging the layout so the controls were easy to reach while keeping the overall design compact.
+
+# picture
+
+## Challenges
+
+The biggest challenge during this milestone was soldering the circuit onto the perfboard. Unlike the breadboard, where mistakes could be corrected in seconds, every solder joint was a permanent electrical connection. Planning where each wire should go, especially the shared ground connections, was much more difficult than I expected.
+
+I also discovered that soldering itself requires practice. Sometimes the solder would not flow properly or would create weak joints that had to be removed and redone before the circuit would work reliably.
+
+Although the synthesizer functions, some of the potentiometer connections are still mechanically weak, causing the circuit to work only intermittently. Debugging these problems taught me that a reliable electronic device depends not only on the circuit design but also on the quality of the physical construction.
+
+## Future Improvements
+
+Although the synthesizer is complete, there are still several improvements I would like to make.
+
+First, I want to strengthen the potentiometer connections so the circuit operates more reliably. I would also like to redesign parts of the wiring layout to make the internal connections cleaner and easier to maintain.
+
+In the future, I'd also like to expand the synthesizer by adding a keyboard, additional oscillators, and more sound effects to create an even wider variety of sounds.
 
 # Second Milestone
 
@@ -108,7 +136,7 @@ The synthesizer uses three potentiometers:
 * One 5kΩ potentiometer controls the output volume by adjusting the signal sent to the speaker.
 
 ### Capacitors
-The capacitors are used to determine the timing of the oscillators because the speaker converts the electrical square-wave signals into actual sound. Together, these components create an analog synthesizer that can produce a wode rnage of electronic tones.
+The capacitors are used to determine the timing of the oscillators because the speaker converts the electrical square-wave signals into actual sound. Together, these components create an analog synthesizer that can produce a wide range of electronic tones.
 
 ## Challenges
 One of the biggest challenges I faced was learning how to use both Tinkercad and breadboard circuits, since I had very little experience with either before starting this project. So this challenge came with troubleshooting the circuit when it initially failed to produce any sound. 
