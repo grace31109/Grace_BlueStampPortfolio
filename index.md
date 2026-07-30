@@ -73,7 +73,7 @@ Unlike the first milestone, this stage involved integrating multiple independent
 ## Overall Design
 The synthesizer now consists of three main subsystems: the original 556 timer circuit that generates the sound, the XR2206 low-frequency oscillator that modulates the sound, and the LM386 amplifier that boosts the output.
 
-# add picture
+m2project.png 
 
 ## Components 
 ### LM386 Audio Amplifier
@@ -81,7 +81,7 @@ One of the largest additions was an LM386 audio amplifier, which strengthens the
 
 The audio signal enters pin 3 through the 5 kΩ volume potentiometer. The LM386 amplifies this signal, which then exits through pin 5, passes through a coupling capacitor, and finally reaches the speaker. Several capacitors were also added around the amplifier to improve power stability and reduce unwanted noise. Because the amplifier is powered by its own battery, I also added an LED to indicate when it is receiving power.
 
-# picture 
+amplifier.jpeg
 
 ### XR2206 Low-Frequency Oscillator (LFO)
 Another major addition was an XR2206 function generator, which works as a Low-Frequency Oscillator (LFO).
@@ -92,7 +92,7 @@ I have a total of 3 potentiometers. The first potentiometer is connected to pin 
 
 The LFO signal leaves pin 2 of the XR2206 and is divided into two independent paths. Each path contains its own **100 kΩ potentiometer** followed by a **10 kΩ resistor** before connecting to one of the two control inputs on the 556 timer(pins 3 and 11). This allows me to independently adjust how much modulation each oscillator receives, giving me much more control over the synthesizer's sound. 
 
-# picture
+LFOimage.jpeg
 
 ## Challenges
 
@@ -127,7 +127,7 @@ The goal of this milestone was to create a functioning synthesizer that could ge
 ### 556 Timer 
 The Atari Punk Synthesizer is built around a 556 timer integrated circuit, which contains two 555 timers inside a single chip. These timers work together to generate square-wave signals that produce the sound. The first timer works as an oscillator that generates square waves at a specific frequency which is determined by the connected capacitors and resistors. The second timer is also set up as an oscillator and works by modulating the first timer, creating the electronic sounds that the Atari Punk Synth is known for.
 
-556timer_image.png
+556_image.png
 
 ### Potentiometers
 The synthesizer uses three potentiometers:
