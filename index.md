@@ -127,7 +127,7 @@ The goal of this milestone was to create a functioning synthesizer that could ge
 ### 556 Timer 
 The Atari Punk Synthesizer is built around a 556 timer integrated circuit, which contains two 555 timers inside a single chip. These timers work together to generate square-wave signals that produce the sound. The first timer works as an oscillator that generates square waves at a specific frequency which is determined by the connected capacitors and resistors. The second timer is also set up as an oscillator and works by modulating the first timer, creating the electronic sounds that the Atari Punk Synth is known for.
 
-556_image.png
+556timer_image.png
 
 ### Potentiometers
 The synthesizer uses three potentiometers:
