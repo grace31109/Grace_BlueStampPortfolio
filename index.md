@@ -21,6 +21,9 @@ My project is an Atari Punk Synthesizer, an analog electronic instrument that ge
 ## Description 
 For my final milestone, I transformed my breadboard prototype into a much more permanent and portable synthesizer. I transferred the entire circuit onto a solderable perfboard, which replaced the temporary jumper-wire connections with soldered electrical connections. I also designed and 3D modeled a custom enclosure using CAD to organize and protect the electronics.
 
+![Milestone Image](m3image.jpeg)
+![Milestone Image](m3image2.jpeg)
+
 ## Final Design
 
 ### Perfboard Assembly
@@ -30,7 +33,10 @@ Unlike a breadboard, where components can simply be plugged in, every electrical
 
 Moving to a perfboard also reduced the number of loose jumper wires, making the synthesizer much easier to transport.
 
-# picture 
+![Milestone Image](m3perf.jpeg)
+![Milestone Image](m3perf2.jpeg)
+![Milestone Image](m3perf3.jpeg)
+
 
 ### CAD
 
@@ -58,9 +64,6 @@ First, I want to strengthen the potentiometer connections so the circuit operate
 In the future, I'd also like to expand the synthesizer by adding a keyboard, additional oscillators, and more sound effects to create an even wider variety of sounds.
 
 # Second Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="844" height="475" src="https://www.youtube.com/embed/k7cU7gvNjDI" title="Grace G. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Description 
