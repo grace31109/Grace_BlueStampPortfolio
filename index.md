@@ -30,7 +30,7 @@ Unlike a breadboard, where components can simply be plugged in, every electrical
 
 Moving to a perfboard also reduced the number of loose jumper wires, making the synthesizer much easier to transport.
 
-![Milestone Image](m2project.png)
+# picture 
 
 ### CAD
 
@@ -38,7 +38,8 @@ After completing the electronics, I designed a custom enclosure using CAD softwa
 
 The enclosure holds the perfboards securely while providing openings for the potentiometers, push buttons, switches, LEDs, and speaker. Creating the enclosure required measuring the dimensions of every component and arranging the layout so the controls were easy to reach while keeping the overall design compact.
 
-# picture
+![CAD Image](556cad.png)
+![CAD Image](LFOcad.png)
 
 ## Challenges
 
