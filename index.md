@@ -1,16 +1,9 @@
 # Atari Punk Synthesizer 
-My project is an Atari Punk Synthesizer, an analog electronic instrument that generates a variety of retro-style sounds using a 556 timer chip. The user can adjust the pitch, tone, and volume with three potentiometers to create different sound effects.
-
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+My project is an Atari Punk Synthesizer, an analog electronic instrument that generates a variety of retro-style sounds using a 556 timer chip. The user can adjust the pitch, tone, and volume with  potentiometers to create different sound effects.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Grace G | Lynbrook High School | Mechanical Engineering | Incoming Senior
-
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
   
@@ -168,21 +161,28 @@ For my next milestone, I plan to transfer the breadboard circuit onto a soldered
 
 ## Next Steps 
 
-
-# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
 # Bill of Materials
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| A500K Potentiometers | What the item is used for | $9.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/gp/aw/d/B0FS4T2ML7/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=21158059054e5e22ef3df0e1f43514c2&hsa_cr_id=0&qid=1785531890&sr=1-2-9e67e56a-6f64-441f-a281-df67fc737124&i=aps&aref=aBBqfD5aNB&ref_=sbx__sbtcd_asin_1_title&pd_rd_w=f66Wu&content-id=amzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68%3Aamzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_p=8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_r=BK1D6ZDM0Z03XTNXD623&pd_rd_wg=x0u1P&pd_rd_r=c04424b2-953e-4b3c-a43b-93fbf1aff35c&th=1)"> Link </a> |
+| 556 Timer | What the item is used for | $5.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/HUABAN-10PCS-NE556N-DIP-14-Timers/dp/B0H35ZZLVT/ref=sr_1_7?crid=3G1CR8S31687X&dib=eyJ2IjoiMSJ9.l2fZ3jrj-p3mM3q6er9HjeCNHd9bnzpVuQyzyEwj1Yvz_DG56Al3dnOCGGmO6ebosqqxtRGDOibOV28Ad-Nq_uiSUPJ_A4UJ_0JcSN2vTOPkyz_S7jc-7V1c5sRVoDNNw4oVZQ7Wa52M7KU06xTs7w.UcCIleFKo1rgZz8zUPkm5NAYCg_OxX3202atKWhoos0&dib_tag=se&keywords=556+timer+chip&qid=1785532286&sprefix=556+timer%2Caps%2C175&sr=8-7)"> Link </a> |
+| XR2206CP | What the item is used for | $5.37 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/XR2206CP-DIP16-XR2206-2206CP-DIP-16/dp/B0BGR97PKC/ref=sr_1_3?crid=3DOI4ZDC5CUQM&dib=eyJ2IjoiMSJ9.GUzKZXrExOXuV3JEdEQe3Jjiz7UBFkHg9Yl0fBf9QK8A1HdXT8Sy9rMxVhYyTAvd2KKhtTHoxZkdaFVPHeGJDmTPoSR8Ycy2QD2It8lD2k91gLknbJ9RWlb_JrIu9qc2.nJ_bp-fCreSgH3ypljlTtwNN-iTyzkVPP63zraszzok&dib_tag=se&keywords=XR2206+chip&qid=1785532056&sprefix=xr2206+chip%2Caps%2C194&sr=8-3)"> Link </a> |
+| LM386N Audio Power Amplifier  | What the item is used for | $6.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/BOJACK-LM386N-Voltage-Amplifier-semiconductor/dp/B07WQWR89Q/ref=sr_1_1_sspa?crid=3M6CZDC26I9LX&dib=eyJ2IjoiMSJ9.5nylNsAnC-rLn9JojTvHSk66ldr7pgP8v8OtGpzvgYGnI3Zki9N0vnc2qhxKN9-1y3G68pRSgrPGLuMijqUzEh6X3lZsncKkRH5DROT86AyjbtmGkNSX8LMXNeXlMqxCzhPLL7RTbXuaLUzW-EoUlrmFif2S4zPxx-PP5yo20QI1Nm1tyKbI72wAbp2KYwMXFt46CvMOVtQGQn1fapqsI_wqPH4Rzgyq1D-Jjn39j5Y.bgd6cv__BsDGPnnisikwRG5wZW7mlyE15LYDLbnNpvY&dib_tag=se&keywords=lm386&qid=1785532110&sprefix=lm3%2Caps%2C196&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)"> Link </a> |
+| 10k Resistors | What the item is used for |
+| 5k Potentiometer | What the item is used for |
+| Solderable Breadboard | What the item is used for |
+| Perfboard | What the item is used for |
+| 8ohm Speaker | What the item is used for | $6.99 | <a href="amazon.com/Speaker-Speakers-Compatible-Loudspeaker-Player/dp/B0C49QZ99X/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.292df443-b323-44ae-8b40-9a666975b8b5%3Aamzn1.sym.292df443-b323-44ae-8b40-9a666975b8b5&crid=1EMP3LBHF1QI2&cv_ct_cx=8+ohm+speaker&keywords=8+ohm+speaker&pd_rd_i=B0C49QZ99X&pd_rd_r=90f93b48-6bc2-49b6-a5c8-828d97dc38d9&pd_rd_w=j6Mfb&pd_rd_wg=In2zB&pf_rd_p=292df443-b323-44ae-8b40-9a666975b8b5&pf_rd_r=22RKHH7J93W0AV496CW4&qid=1785533087&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=8ohm+spekae%2Caps%2C168&sr=1-1-6024b2a3-78e4-4fed-8fed-e1613be3bcce-spons&aref=a2589Gplrr&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1"> Link </a> |
+| Toggle Switch | What the item is used for |
+| 9V Battery | What the item is used for | $8.99 | <a href="https://www.amazon.com/PKCELL-9V-Batteries-Battery-Detector/dp/B00ZTS55Y4/ref=sr_1_1_sspa?crid=RNX79Q7YHA6L&dib=eyJ2IjoiMSJ9.LzVLI_Okv1aX44UDnl3M2-RS4ssR57PghTC3OPi9-RcyeCPVkGbxCnf_hdsU6ckWZYZtaYQ0z9cdWUxbIPKxL_8--2HJnpuac4xQ2g6v9VZvO8l9Hwf4Irc-JhhuJwBOMD8waBPYtzrCgzHibz2T4G5bcZXnysWjDl2QameNTvevaikkIW_0sUj7uy2p2N86H6UvNVYaJvicOqSgWdwIcwBIXcvmWaSw5AlBmaYFSQeV-xmeCVo6Gk18vxF6vgy3Oiy12ofGkv7MIM_lKcKvstWEQqR9-cA8O3FYOx3icEY.P3byZaG0E1jxYHfdnqy6Z57GiRkDCZr6cSJf-h0VQ3Q&dib_tag=se&keywords=9v+batteries&qid=1785533254&rdc=1&sprefix=9v+b%2Caps%2C212&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)"> Link </a> |
+| 100k Potentiometers | What the item is used for | $6.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Ferwooh-Adjustment-Single-Linear-Potentiometer/dp/B0CZ74CL2T/ref=sr_1_3?crid=2UMRRASFYYDZN&dib=eyJ2IjoiMSJ9.S1or234AqZVS13T9PN1sC2zoUMMVc1wryzrpYzjzpgyR6v_k-SskTkRmMHhiJ7vDGQmbbbl0skwQu-WchAH0LfKPV-mN_k4hand60FSawSgHhNdLpiAdGZLBcyoaoDwmuDVWBOT8_SbxyHZhn4UHxIhkpJenyQ9y4PBdxSgkDmQOdYoiO5owhc3t25UBfYzDaKrF1tfTsyRkpfKtCfZy7zQqx6kEqZh3uCYE1UXEzyk.atFbSvIAHfPHMsj6OzX1QWDbHkT2VjEeX4uVGv8cjXw&dib_tag=se&keywords=100k%2Bpotentiometer&qid=1785533231&sprefix=100k%2Bpo%2Caps%2C222&sr=8-3&th=1)"> Link </a> |
+| 10u Capacitors | What the item is used for |
+| 100u Capacitors | What the item is used for |
+| 1000u Capacitor | What the item is used for |
 
 # Other Resources/Examples
 - [Build an Atari Punk Circuit on a Breadboard](https://www.instructables.com/Build-an-Atari-Punk-circuit-on-a-breadboard/)
 - [Let's Build (Analogue Synth)](https://www.instructables.com/Lets-Build-Analogue-Synth/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- [XR-2206 - Monolithic Function Generator](https://cdn.sparkfun.com/assets/8/a/b/3/9/XR2206.pdf)
 
