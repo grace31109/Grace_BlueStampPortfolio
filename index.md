@@ -30,7 +30,7 @@ Unlike a breadboard, where components can simply be plugged in, every electrical
 
 Moving to a perfboard also reduced the number of loose jumper wires, making the synthesizer much easier to transport.
 
-# picture 
+![Milestone Image](m2project.png)
 
 ### CAD
 
