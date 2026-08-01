@@ -155,7 +155,7 @@ For my next milestone, I plan to transfer the breadboard circuit onto a soldered
 ## Description 
 Built a Jitterbug, a simple electronic robot powered by a vibration motor. 
 
-bug.png
+![Starter Project](bug.png)
 
 ## Challenges 
 - Learning how to solder electronic components for the first time
