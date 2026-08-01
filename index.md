@@ -9,7 +9,7 @@ My project is an Atari Punk Synthesizer, an analog electronic instrument that ge
   
 # Final Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=eSRVPmxoq2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="839" height="472" src="https://www.youtube.com/embed/AdFRfSBVKYU" title="Grace G. Demo Night Presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Description 
 For my final milestone, I transformed my breadboard prototype into a much more permanent and portable synthesizer. I transferred the entire circuit onto a solderable perfboard, which replaced the temporary jumper-wire connections with soldered electrical connections. I also designed and 3D modeled a custom enclosure using CAD to organize and protect the electronics.
